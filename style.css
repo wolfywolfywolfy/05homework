@@ -1,0 +1,89 @@
+body {
+    background-color: #0e0a2d;
+
+    color: #ea7d00;
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+section {
+    background-color: #000000;
+    margin: 0em 0.7em;
+}
+
+.buffer {
+    background-color: #0e0547;
+    padding: 5px;
+    margin: 0px;
+}
+
+h1 {
+    color: #ffffffeb;
+    font-family: "Michroma", system-ui;
+    font-weight: 900;
+    text-align: center;
+
+    text-shadow: -4px 3px 0px #ffffff54,
+                 3px 2px 0px #69d185,
+                 -3px -3px 0px #ec1919c1;
+}
+
+ul {
+    color: #ffffff;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-size: 30px;
+    text-decoration: none;
+
+    transition: transform 0.4s ease;
+}
+
+li:hover {
+    color: #dfffe5;
+
+    text-shadow: -4px 3px 0px #ffffff54,
+                 3px 2px 0px #69d185,
+                 -3px -3px 0px #ec1919c1;
+}
+
+li:nth-child(even):hover {
+    transform: translate(-1px, 0px);
+  }
+
+li:nth-child(odd):hover {
+  transform: translate(1px, 0px);
+}
+
+li:nth-child(1) {
+    /* Your CSS styles here */
+    color: #ec1919c1;
+}
+
+li:nth-child(5) {
+    /* Your CSS styles here */
+    color: #69d185;
+}
+
+img {
+    border: 0.4em dashed red;
+    box-shadow: 0 0 0 0.2em #da3434c7, 0 0 0 0.4em #ffffffc7, 0 0 0 0.5em #2dff49c7;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    color: #25ff21;
+    font-weight: 900;
+    font-family: "Jacquarda Bastarda 9", serif;
+
+    transition: transform 0.4s ease;
+}
+
+footer a:hover {
+    color: white;
+    
+    text-shadow: -4px 3px 0px #ffffff54,
+                 3px 2px 0px #69d185,
+                 -3px -3px 0px #ec1919c1;
+}
